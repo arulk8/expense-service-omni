@@ -1,0 +1,7 @@
+package com.arul.expense.repository;
+
+import com.arul.expense.jpaEntity.ExpenseEntity;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface ExpenseRepository extends JpaRepository<ExpenseEntity, Long> {
+}
