@@ -1,4 +1,4 @@
-package com.arul.expense.repository;
+package com.arul.expense.jpaRepository;
 
 import com.arul.expense.jpaEntity.ExpenseEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
